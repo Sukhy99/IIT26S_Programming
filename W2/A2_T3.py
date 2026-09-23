@@ -1,0 +1,10 @@
+print("Program starting.")
+First_word = input("Insert first word: ")
+Second_word = input("Insert second word: ")
+Lenght1 = len(First_word)
+Lenght2 = len(Second_word)
+print("1st word is", Lenght1, "characters long.")
+print("2nd word is", Lenght2, "characters long.")
+Compound_word = First_word + Second_word
+print(f"Words together makes one close compound"," "  "'", Compound_word, "'", sep="")
+print("Program ending.")
